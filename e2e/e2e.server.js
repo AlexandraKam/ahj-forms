@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
+// eslint-disable-next-line
 const config = require('../webpack.dev.js');
 
 const server = new WebpackDevServer(webpack(config), {});
